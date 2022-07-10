@@ -1,9 +1,80 @@
-body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
-  background: #E5E5E5;
+:root{
+  --primary-text-color:#757575;
+  --title-color:#212121;
+  --link-hover-color: #2196F3;
+  --background-color-grey: #2F303A;
+
 }
 
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  background: #fff;
+  color: var(--primary-text-color);
+}
+
+.list{
+  list-style: none;
+}
+
+.logo {
+font-family: 'Raleway';
+color: black;
+}
+
+.logo:hover{
+  color: var(--link-hover-color);
+}
+
+/* site-nav */
+.site-nav .link {
+color: #212121
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus
+{
+  color: var(--link-hover-color);
+}
+
+.haeder-contact .h-link {
+  color: var(--primary-text-color);
+}
+
+.haeder-contact .h-link:hover,
+.haeder-contact .h-link:focus 
+{
+  color: var(--link-hover-color)
+}
+ 
+/* section */
+.section-title{
+  color: var(--title-color);
+}
+
+/* features  Особенности*/
+.feature-list .title {
+color: var(--title-color);
+}
+
+.team .title{
+  color: var(--title-color)
+}
+/* 
+.order > .section-title{
+  color: #FFFFFF
+} */
+
+
+
 /*
+колір основного тексту #212121
+колір h1 #FFFFFF
+колір web #2196F3
+колір p, mail tel (header) #757575
+колір background #2F303A
+колір background наша команда #F5F4FA ;
+колір
+
 header {
   position: absolute;
 width: 1600px;
