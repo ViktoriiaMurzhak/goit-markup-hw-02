@@ -9,50 +9,42 @@
 }
 
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
-  background: #fff;
-  color: var(--primary-text-color);
+font-family: Roboto, Raleway, sans-serif;
+background: #fff;
+color: var(--primary-text-color);
+font-size: 14px;
+line-height: 1.33;
 }
 
 .list{
-  list-style: none;
+list-style: none;
 }
 
 .logo {
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.2;
 letter-spacing: 0.03em;
 color: black;
 text-decoration:none;
 }
 
 .logo:hover{
-  color: var(--link-hover-color);
+color: var(--link-hover-color);
 }
 
 .logo-web{
-  color: var(--link-hover-color)
+color: var(--link-hover-color)
 }
 
 /* site-nav */
 .site-nav .link {
 color: #212121;
-width: 68px;
-height: 16px;
-left: 679px;
-top: 32px;
-font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.2;
 letter-spacing: 0.02em;
 text-decoration:none;
 }
@@ -60,36 +52,35 @@ text-decoration:none;
 .site-nav .link:hover,
 .site-nav .link:focus
 {
-  color: var(--link-hover-color);
+color: var(--link-hover-color);
 }
 
 .haeder-contact .h-link {
-  color: var(--primary-text-color);
-  text-decoration:none;
-  width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
-font-family: 'Roboto';
+color: var(--primary-text-color);
+text-decoration:none;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.2;
 letter-spacing: 0.02em;
 }
 
 .haeder-contact .h-link:hover,
 .haeder-contact .h-link:focus 
 {
-  color: var(--link-hover-color)
+color: var(--link-hover-color)
 }
  
 /* section */
 .section-title{
-  color: var(--title-color);
+color: var(--title-color);
 }
 
 /* features  Особенности*/
+.feature-title{
+display : none;
+}
+
 .feature-list .title {
 color: var(--title-color);
 }
@@ -100,44 +91,137 @@ color: var(--title-color);
 
 /* button */
 .button {
-background-color: var(--link-hover-color);
-width: 200px;
-height: 50px;
-left: 700px;
-top: 430px;
+background: var(--link-hover-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 border: none;
-
-}
-
-.button-text{
-color: #fff;
-width: 136px;
-height: 30px;
-left: 732px;
-top: 440px;
-font-family: 'Roboto';
-font-style: normal;
+border-radius: 4px;
 font-weight: 700;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.88;
+display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-
+color: #FFFFFF;
 }
 
 
+.order{
+background-color: var(--primary-bg-color);
+}
+.section-title.one{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #fff;
 
+}
 
+.section-title.work,
+.section-title.team{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.15;
+text-align: center;
+letter-spacing: 0.03em;
+}
 
-/* 
-.order > .section-title{
-  color: #FFFFFF
-} */
+.team {
+  background: #F5F4FA;
+}
 
+.title.team {
+color: var(--title-color);
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+}
 
+.logo-footer{
+  font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: #fff;
+text-decoration:none;
+}
+
+.logo-footer:hover{
+color: var(--link-hover-color);
+}
+.footer-list{
+background-color: var(--primary-bg-color);
+}
+
+.contact-adres{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-decoration:none;
+color: #FFFFFF;
+}
+
+.contact-mail, .contact-tel{
+color:rgba(255, 255,255, 0.6);
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+text-decoration:none;
+}
+
+.contact-adres:hover,
+.contact-mail:hover,
+.contact-tel:hover{
+  color: var(--link-hover-color);
+}
+
+.contact-adres:focus,
+.contact-mail:focus,
+.contact-tel:focus{
+  color: var(--link-hover-color);
+}
+
+/* PORTFOLIO STYLES */
+.portf-title {
+  display : none
+}
+
+.button-portf{
+background: #F5F4FA;
+border: none;
+border-radius: 4px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.button-portf:hover{
+background: #2196F3;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+color: #FFFFFF;
+
+}
+
+.portf-list-title{
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--title-color);
+}
 
 /*
 колір основного тексту #212121
@@ -148,37 +232,6 @@ letter-spacing: 0.06em;
 колір background наша команда #F5F4FA ;
 колір
 
-header {
-  position: absolute;
-width: 1600px;
-height: 80px;
-left: 0px;
-top: 0px;
-background: #FFFFFF;
-}
-
-.logo {
-  position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: black;
-}
-
-.site-nav {
-position: absolute;
-width: 294px;
-height: 16px;
-left: 453px;
-top: 32px;
-}
 
 .haeder-contact-mail {
 position: absolute;
@@ -210,3 +263,7 @@ letter-spacing: 0.02em;
 color: #757575;
 
 }*/
+
+/* button{
+  font-family: inherit;
+} */
