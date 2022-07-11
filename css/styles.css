@@ -101,7 +101,6 @@ text-transform: uppercase;
 }
 
 .team-text{
-  font-weight: 400;
 font-size: 16px;
 line-height: 1.19;
 /* text-align: center; */
@@ -117,7 +116,6 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 font-family:inherit;
 border-radius: 4px;
 border: none;
-border-radius: 4px;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -185,7 +183,6 @@ background-color: var(--primary-bg-color);
 .contact-adres{
 font-family: 'Roboto';
 font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -196,7 +193,6 @@ color: #FFFFFF;
 .contact-mail, .contact-tel{
 color:rgba(255, 255,255, 0.6);
 font-style: normal;
-font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
@@ -266,37 +262,5 @@ color:var(--primary-text-color);
 колір p, mail tel (header) #757575
 колір background #2F303A
 колір background наша команда #F5F4FA ;
-колір
-
-
-.haeder-contact-mail {
-position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #757575;
-}
-
-.haeder-contact-tel {
-position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #757575;
-
-}*/
+колір*/
 
